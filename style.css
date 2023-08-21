@@ -1,0 +1,134 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(78, 183, 239);
+    /* background: linear-gradient(#2196f3 , #e91e63); */
+    background-repeat: no-repeat;
+    /* width: 100px;*/
+    height: 200px; 
+
+}
+
+.container {
+    
+    width: 500px;
+    height: 450px;
+    /* background: url(Simple-Plain-Background11.jpg); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 1000px 650px; */
+    margin:auto;
+    align-items: center;
+}
+
+.calculator {
+    width: 320px;
+    height: 570px;
+    background-color: #eaedef;
+    align-items: center;
+    /* background-color: transparent; */
+    margin: 0 auto;
+    margin-top: 50%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2)
+}
+
+.result {
+    height: 20%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+
+.history {
+    text-align: right;
+    height: 30%;
+    margin: 0 20px;
+    font-size: 15px;
+    padding-top: 15px;
+    color: #919191;
+}
+
+.output {
+    position: relative;
+    text-align: right;
+    height: 70%;
+    margin: 0px 20px 5px 20px;
+    font-size: 32px;
+}
+
+.input {
+    height: 80%;
+    width: 100%;
+}
+
+.operator,
+.number,
+.empty {
+    width: 64px;
+    height: 60px;
+    margin: 6px 5px 6px 7px;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.number,
+.empty {
+    background-color: #eaedef;
+}
+
+
+#backspace,
+#clear {
+    background-color: lightgray;
+}
+
+button:nth-child(4) {
+    font-size: 22px;
+    background-color: #20b2aa;
+}
+
+button:nth-child(8) {
+    font-size: 22px;
+    background-color: #ffa500;
+}
+
+button:nth-child(12) {
+    font-size: 22px;
+    background-color: #f08080;
+}
+
+button:nth-child(16) {
+    font-size: 22px;
+    background-color: #7d93e0;
+}
+
+button:nth-child(20) {
+    font-size: 22px;
+    background-color: #9477af;
+}
+
+.number,
+.operator {
+    cursor: pointer;
+}
+
+/* added by nikhil kumar */
+
+.operator:active,
+.number:active {
+  /* font-size: 10px; */
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.number:hover,
+.operator:hover {
+  /* font-size:15px; */
+  font-size: 23px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.521);
+  color: white;
+}
