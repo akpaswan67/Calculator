@@ -3,19 +3,16 @@ body {
     background-color: rgb(78, 183, 239);
     /* background: linear-gradient(#2196f3 , #e91e63); */
     background-repeat: no-repeat;
-    /* width: 100px;*/
-    height: 200px; 
-
 }
 
 .container {
     
-    width: 500px;
-    height: 450px;
+    width: 400px;
+    height: 550px;
     /* background: url(Simple-Plain-Background11.jpg); */
     /* background-repeat: no-repeat; */
     /* background-size: 1000px 650px; */
-    margin:auto;
+    margin: auto;
     align-items: center;
 }
 
@@ -25,8 +22,9 @@ body {
     background-color: #eaedef;
     align-items: center;
     /* background-color: transparent; */
-    margin: 0 auto;
-    margin-top: 50%;
+    margin: 40px 35px;
+    margin-top: 20%;
+    margin-bottom: 25%;
     position: relative;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2)
